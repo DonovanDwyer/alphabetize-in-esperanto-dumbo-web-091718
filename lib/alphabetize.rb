@@ -1,7 +1,9 @@
 require "pry"
 
 def alphabetize(arr)
-  arr.sort_by! do |a|
-    binding.pry
+  array = arr.sort_by! do |a|
+    a
+    #binding.pry
   end
+  array
 end
