@@ -1,6 +1,6 @@
 require "pry"
 
 def alphabetize(arr)
-  arr.sort_by {|a| a[0].downcase}
+  arr.sort_by {|a,b| a[0] <=> b[0]}
   #binding.pry
 end
