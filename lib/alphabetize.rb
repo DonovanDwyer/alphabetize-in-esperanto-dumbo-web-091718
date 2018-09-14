@@ -1,6 +1,7 @@
 require "pry"
 
 def alphabetize(arr)
-  array = arr.sort_by! do |a|
+  x = ""
+  array = arr.sort_by! {|a| a = x if a>x}
   array
 end
